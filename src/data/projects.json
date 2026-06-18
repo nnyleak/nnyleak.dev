@@ -1,0 +1,32 @@
+[
+    {
+        "slug": "kae-archive",
+        "title": "kae/archive",
+        "tagline": "a personal book archiving site",
+        "year": "2026",
+        "type": "personal project",
+        "stack": [
+            "react",
+            "vite",
+            "node.js",
+            "express",
+            "postgresql",
+            "supabase",
+            "jwt authentication",
+            "axios",
+            "custom css",
+            "open library api"
+        ],
+        "thumbnail": "../assets/images/kaearchive-1.png",
+        "github": "https://github.com/nnyleak/book-notes",
+        "live": "https://kae-archive.vercel.app/",
+        "gallery": [
+            "../assets/images/kaearchive-1.png",
+            "../assets/images/kaearchive-2.png",
+            "../assets/images/kaearchive-3.png"
+        ],
+        "about": "insert description here",
+        "challenges": "insert challenges here",
+        "lessons": "insert lessons here"
+    }
+]
