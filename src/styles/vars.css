@@ -1,24 +1,47 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --text-light-gray: #b4acc0;
+    --text-gray: #8a8296;
+    --bg: #0c0a11;
+    --border: #574e63;
+    --accent-pink: #cf9fb8;
+    --accent-cream: #f4eee6;
+    --accent-purple: #a98fc0;
+    --accent-aqua: #8fe3d6;
+    --accent-gold: #e8dcc8;
+    --accent-blue: #96aae0;
+    --panel: #1c1826;
+    --gradient-header: linear-gradient(
+      90deg,
+      white 0%,
+      var(--accent-cream) 25%,
+      var(--accent-pink) 50%,
+      var(--accent-blue) 75%,
+      var(--accent-gold) 100%
+    );
+    --gradient-bar: linear-gradient(
+      90deg,
+      var(--accent-cream) 0%,
+      var(--accent-pink) 5%,
+      var(--accent-blue) 100%
+    );
+    --gradient-stat: linear-gradient(
+      90deg,
+      var(--accent-pink) 0%,
+      var(--accent-purple) 75%,
+      var(--accent-aqua) 100%
+    );
+    --gradient-panel: linear-gradient(180deg, var(--panel) 0%, black 100%);
+    --shadow:
+      rgba(0, 0, 0, 0.3) 0 14px 40px -3px;
 
-  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
-  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --grotesk: "Space Grotesk", sans-serif;
+  --pinyon: "Pinyon Script", cursive;
+  --cascadia: "Cascadia Code", sans-serif;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;
-  color: var(--text);
+  color: var(--accent-cream);
   background: var(--bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,17 +55,40 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
+    --text-light-gray: #b4acc0;
+    --text-gray: #8a8296;
+    --bg: #0c0a11;
+    --border: #574e63;
+    --accent-pink: #cf9fb8;
+    --accent-cream: #f4eee6;
+    --accent-purple: #a98fc0;
+    --accent-aqua: #8fe3d6;
+    --accent-gold: #e8dcc8;
+    --accent-blue: #96aae0;
+    --panel: #1c1826;
+    --gradient-header: linear-gradient(
+      90deg,
+      white 0%,
+      var(--accent-cream) 25%,
+      var(--accent-pink) 50%,
+      var(--accent-blue) 75%,
+      var(--accent-gold) 100%
+    );
+    --gradient-bar: linear-gradient(
+      90deg,
+      var(--accent-cream) 0%,
+      var(--accent-pink) 5%,
+      var(--accent-blue) 100%
+    );
+    --gradient-stat: linear-gradient(
+      90deg,
+      var(--accent-pink) 0%,
+      var(--accent-purple) 75%,
+      var(--accent-aqua) 100%
+    );
+    --gradient-panel: linear-gradient(180deg, var(--panel) 0%, black 100%);
     --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+      rgba(0, 0, 0, 0.3) 0 14px 40px -3px;
   }
 
   #social .button-icon {
