@@ -1,8 +1,19 @@
+import { Link } from "react-router-dom";
+import "./Nav.css";
+
 function Nav() {
   return (
-    <div>
-      <h1>navbar</h1>
-    </div>
+    <nav className="nav">
+      <div className="nav-left">
+        <div className="nav-logo">[ logo ]</div>
+        <span className="nav-handle">nnyleak.dev</span>
+      </div>
+      <div className="nav-right">
+        <Link className="nav-btn" to="/#work">WORK</Link>
+        <Link className="nav-btn" to="/#play">PLAY</Link>
+        <Link className="nav-btn" to="/#contact">CONTACT</Link>
+      </div>
+    </nav>
   );
 }
 

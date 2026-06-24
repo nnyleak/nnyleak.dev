@@ -38,7 +38,7 @@
   --pinyon: "Pinyon Script", cursive;
   --cascadia: "Cascadia Code", sans-serif;
 
-  font: 18px/145% var(--sans);
+  font: 18px/145% var(--grotesk);
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--accent-cream);
@@ -89,9 +89,5 @@
     --gradient-panel: linear-gradient(180deg, var(--panel) 0%, black 100%);
     --shadow:
       rgba(0, 0, 0, 0.3) 0 14px 40px -3px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
   }
 }

@@ -3,8 +3,10 @@
         "slug": "kae-archive",
         "title": "kae/archive",
         "tagline": "a personal book archiving site",
+        "section": "featured",
         "year": "2026",
         "type": "personal project",
+        "tags": ["react", "node.js", "postgresql", "supabase"],
         "stack": [
             "react",
             "vite",
@@ -17,7 +19,7 @@
             "custom css",
             "open library api"
         ],
-        "thumbnail": "../assets/images/kaearchive-1.png",
+        "thumbnail": "./src/assets/images/kaearchive-1.png",
         "github": "https://github.com/nnyleak/book-notes",
         "live": "https://kae-archive.vercel.app/",
         "gallery": [
@@ -28,5 +30,109 @@
         "description": "insert description here",
         "challenges": "insert challenges here",
         "lessons": "insert lessons here"
+    },
+    {
+        "slug": "project-placeholder-two",
+        "title": "project title two",
+        "tagline": "short project tagline goes here",
+        "section": "featured",
+        "year": "20XX",
+        "type": "insert type here",
+        "tags": ["tag one", "tag two", "tag three"],
+        "stack": ["insert stack here"],
+        "thumbnail": "",
+        "github": "insert github url",
+        "live": "insert live url",
+        "gallery": [],
+        "description": "insert description here",
+        "challenges": "insert challenges here",
+        "lessons": "insert lessons here"
+    },
+    {
+        "slug": "project-placeholder-three",
+        "title": "project title three",
+        "tagline": "another short tagline for this project",
+        "section": "featured",
+        "year": "20XX",
+        "type": "insert type here",
+        "tags": ["tag one", "tag two", "tag three"],
+        "stack": ["insert stack here"],
+        "thumbnail": "",
+        "github": "insert github url",
+        "live": "insert live url",
+        "gallery": [],
+        "description": "insert description here",
+        "challenges": "insert challenges here",
+        "lessons": "insert lessons here"
+    },
+    {
+        "slug": "build-one",
+        "title": "build title one",
+        "tagline": "short tagline here",
+        "section": "build",
+        "year": "20XX",
+        "type": "insert type here",
+        "tags": ["tag one", "tag two"],
+        "stack": ["insert stack here"],
+        "thumbnail": "",
+        "github": "insert github url",
+        "live": "insert live url"
+    },
+    {
+        "slug": "build-two",
+        "title": "build title two",
+        "tagline": "short tagline here",
+        "section": "build",
+        "year": "20XX",
+        "type": "insert type here",
+        "tags": ["tag one", "tag two"],
+        "stack": ["insert stack here"],
+        "thumbnail": "",
+        "github": "insert github url",
+        "live": "insert live url"
+    },
+    {
+        "slug": "build-three",
+        "title": "build title three",
+        "tagline": "short tagline here",
+        "section": "build",
+        "year": "20XX",
+        "type": "insert type here",
+        "tags": ["tag one", "tag two"],
+        "stack": ["insert stack here"],
+        "thumbnail": "",
+        "github": "insert github url",
+        "live": "insert live url"
+    },
+    {
+        "slug": "build-four",
+        "title": "build title four",
+        "tagline": "short tagline here",
+        "section": "build",
+        "year": "20XX",
+        "type": "insert type here",
+        "tags": ["tag one", "tag two"],
+        "stack": ["insert stack here"],
+        "thumbnail": "",
+        "github": "insert github url",
+        "live": "insert live url"
+    },
+    {
+        "slug": "creative-one",
+        "title": "creative title one",
+        "section": "creative",
+        "tags": ["tag one", "tag two"]
+    },
+    {
+        "slug": "creative-two",
+        "title": "creative title two",
+        "section": "creative",
+        "tags": ["tag one", "tag two"]
+    },
+    {
+        "slug": "creative-three",
+        "title": "creative title three",
+        "section": "creative",
+        "tags": ["tag one", "tag two"]
     }
 ]
