@@ -36,9 +36,10 @@ function Projects() {
           </div>
 
           <div className="projects-creative">
-            <span className="projects-section-label">
-              other creative things
-            </span>
+            <div className="projects-section-label">
+              <p>other creative things</p>
+              <div className="projects-divider"></div>
+            </div>
             <div className="projects-creative-list">
               {creative.map((p) => (
                 <ProjectCard key={p.slug} project={p} variant="list" />

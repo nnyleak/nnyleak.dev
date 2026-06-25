@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function ProjectCard({ project, variant = "featured" }) {
   if (variant === "featured") {
     return (
-      <div className="project-card project-card--featured">
+      <Link to={`/projects/${project.slug}`} className="project-card project-card--featured">
         <div className="card-thumb">
           {project.thumbnail ? (
             <img src={project.thumbnail} alt={project.title} className="card-thumb-img" />
@@ -20,12 +20,10 @@ function ProjectCard({ project, variant = "featured" }) {
           </div>
           <p className="card-tagline">{project.tagline}</p>
           <div className="card-footer">
-            <Link to={`/projects/${project.slug}`} className="card-open-btn">
-              OPEN PROJECT →
-            </Link>
+            <span className="card-open-btn">open project →</span>
           </div>
         </div>
-      </div>
+      </Link>
     );
   }
 
