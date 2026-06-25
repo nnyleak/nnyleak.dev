@@ -23,7 +23,11 @@ function Projects() {
 
         <div className="projects-secondary">
           <div className="projects-builds">
-            <span className="projects-section-label">MORE BUILDS</span>
+            <div className="projects-section-label">
+              <div>more builds</div>
+              <div className="projects-divider"></div>
+            </div>
+
             <div className="projects-builds-grid">
               {builds.map((p) => (
                 <ProjectCard key={p.slug} project={p} variant="mini" />
@@ -32,7 +36,9 @@ function Projects() {
           </div>
 
           <div className="projects-creative">
-            <span className="projects-section-label">OTHER CREATIVE THINGS</span>
+            <span className="projects-section-label">
+              other creative things
+            </span>
             <div className="projects-creative-list">
               {creative.map((p) => (
                 <ProjectCard key={p.slug} project={p} variant="list" />
