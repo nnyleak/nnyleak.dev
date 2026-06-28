@@ -8,6 +8,9 @@
 .stats-inner {
   width: 100%;
   max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /* PANEL */
@@ -20,10 +23,10 @@
 }
 
 .stats-panel-body {
-  padding: 1rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 /* HEADER */
@@ -31,8 +34,7 @@
 .stats-header {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  margin-bottom: 1rem;
+  gap: 1.5rem;
 }
 
 .stats-title {
@@ -54,6 +56,7 @@
   gap: 0.75rem;
   color: var(--accent-cream);
   flex-wrap: wrap;
+  margin-bottom: 0.5rem;
 }
 
 .stats-name {
@@ -72,7 +75,7 @@
   color: var(--text-gray);
 }
 
-/* ── Shared section label ── */
+/* SHARED LABEL */
 
 .stats-section {
   display: flex;
@@ -87,19 +90,17 @@
 }
 
 .stats-section-label {
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  color: var(--accent-cream);
-  opacity: 0.5;
+  font-size: 0.8rem;
+  letter-spacing: 0.12rem;
+  color: var(--text-gray);
 }
 
-/* ── Skills grid ── */
+/* SKILLS GRID */
 
 .stats-skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0.6rem 2.5rem;
+  gap: 0.8rem 2.5rem;
 }
 
 .stats-skill-row {
@@ -110,14 +111,14 @@
 
 .skill-name {
   font-size: 0.8rem;
-  color: var(--text-light-gray);
+  color: var(--accent-cream);
   white-space: nowrap;
   min-width: 90px;
 }
 
 .skill-bar {
   flex: 1;
-  height: 3px;
+  height: 0.5rem;
   background: rgba(255, 255, 255, 0.08);
 }
 
@@ -127,14 +128,13 @@
 }
 
 .skill-percent {
-  font-family: var(--cascadia);
   font-size: 0.7rem;
-  color: var(--text-gray);
+  color: var(--accent-aqua);
   min-width: 32px;
   text-align: right;
 }
 
-/* ── Thin divider ── */
+/* DIVIDER */
 
 .stats-thin-divider {
   height: 1px;
@@ -142,11 +142,11 @@
   opacity: 0.5;
 }
 
-/* ── Off the clock ── */
+/* OFF THE CLOCK */
 
 .stats-hobbies {
   font-size: 0.85rem;
-  color: var(--text-light-gray);
+  color: var(--accent-cream);
   line-height: 1.8;
   margin: 0;
 }

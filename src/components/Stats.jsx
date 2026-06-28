@@ -29,7 +29,7 @@ function Stats() {
                   <div className="skill-bar">
                     <div className="skill-bar-fill" style={{ width: `${skill.percent}%` }} />
                   </div>
-                  <span className="skill-percent">{skill.percent}%</span>
+                  <span className="skill-percent">{skill.percent}</span>
                 </div>
               ))}
             </div>
