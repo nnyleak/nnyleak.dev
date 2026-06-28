@@ -1,0 +1,145 @@
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.stats-inner {
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* PANEL */
+
+.stats-panel {
+  background: var(--gradient-panel);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-panel-body {
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* HEADER */
+
+.stats-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.stats-title {
+  font-size: 46px;
+  margin: 0;
+  line-height: 1;
+}
+
+.stats-divider {
+  height: 2px;
+  background: var(--gradient-bar);
+}
+
+/* ── Identity row ── */
+
+.stats-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--accent-cream);
+  flex-wrap: wrap;
+}
+
+.stats-identity-sep {
+  color: var(--border);
+}
+
+/* ── Shared section label ── */
+
+.stats-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.stats-section--inline {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.stats-section-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--accent-cream);
+  opacity: 0.5;
+}
+
+/* ── Skills grid ── */
+
+.stats-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem 2.5rem;
+}
+
+.stats-skill-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.skill-name {
+  font-size: 0.8rem;
+  color: var(--text-light-gray);
+  white-space: nowrap;
+  min-width: 90px;
+}
+
+.skill-bar {
+  flex: 1;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.skill-bar-fill {
+  height: 100%;
+  background: var(--gradient-stat);
+}
+
+.skill-percent {
+  font-family: var(--cascadia);
+  font-size: 0.7rem;
+  color: var(--text-gray);
+  min-width: 32px;
+  text-align: right;
+}
+
+/* ── Thin divider ── */
+
+.stats-thin-divider {
+  height: 1px;
+  background: var(--border);
+  opacity: 0.5;
+}
+
+/* ── Off the clock ── */
+
+.stats-hobbies {
+  font-size: 0.85rem;
+  color: var(--text-light-gray);
+  line-height: 1.8;
+  margin: 0;
+}
+
+.stats-bullet {
+  color: var(--text-gray);
+}

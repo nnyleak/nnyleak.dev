@@ -1,38 +1,37 @@
 :root {
   --text-light-gray: #b4acc0;
-    --text-gray: #8a8296;
-    --bg: #0c0a11;
-    --border: #574e63;
-    --accent-pink: #cf9fb8;
-    --accent-cream: #f4eee6;
-    --accent-purple: #a98fc0;
-    --accent-aqua: #8fe3d6;
-    --accent-gold: #e8dcc8;
-    --accent-blue: #96aae0;
-    --panel: #1c1826;
-    --gradient-header: linear-gradient(
-      90deg,
-      white 0%,
-      var(--accent-cream) 25%,
-      var(--accent-pink) 50%,
-      var(--accent-blue) 75%,
-      var(--accent-gold) 100%
-    );
-    --gradient-bar: linear-gradient(
-      90deg,
-      var(--accent-cream) 0%,
-      var(--accent-pink) 5%,
-      var(--accent-blue) 100%
-    );
-    --gradient-stat: linear-gradient(
-      90deg,
-      var(--accent-pink) 0%,
-      var(--accent-purple) 75%,
-      var(--accent-aqua) 100%
-    );
-    --gradient-panel: linear-gradient(180deg, var(--panel) 0%, black 100%);
-    --shadow:
-      rgba(0, 0, 0, 0.3) 0 14px 40px -3px;
+  --text-gray: #8a8296;
+  --bg: #0c0a11;
+  --border: #574e63;
+  --accent-pink: #cf9fb8;
+  --accent-cream: #f4eee6;
+  --accent-purple: #a98fc0;
+  --accent-aqua: #8fe3d6;
+  --accent-gold: #e8dcc8;
+  --accent-blue: #96aae0;
+  --panel: #1c1826;
+  --gradient-header: linear-gradient(
+    90deg,
+    white 0%,
+    var(--accent-cream) 25%,
+    var(--accent-pink) 50%,
+    var(--accent-blue) 75%,
+    var(--accent-gold) 100%
+  );
+  --gradient-bar: linear-gradient(
+    90deg,
+    var(--accent-cream) 0%,
+    var(--accent-pink) 5%,
+    var(--accent-blue) 100%
+  );
+  --gradient-stat: linear-gradient(
+    90deg,
+    var(--accent-pink) 0%,
+    var(--accent-purple) 75%,
+    var(--accent-aqua) 100%
+  );
+  --gradient-panel: linear-gradient(180deg, var(--panel) 0%, black 100%);
+  --shadow: rgba(0, 0, 0, 0.3) 0 14px 40px -3px;
 
   --grotesk: "Space Grotesk", sans-serif;
   --pinyon: "Pinyon Script", cursive;
@@ -42,7 +41,13 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--accent-cream);
-  background: var(--bg);
+
+  background-image: url("../assets/images/bg.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -87,7 +92,6 @@
       var(--accent-aqua) 100%
     );
     --gradient-panel: linear-gradient(180deg, var(--panel) 0%, black 100%);
-    --shadow:
-      rgba(0, 0, 0, 0.3) 0 14px 40px -3px;
+    --shadow: rgba(0, 0, 0, 0.3) 0 14px 40px -3px;
   }
 }

@@ -17,6 +17,11 @@ h2 {
   /* color: var(--gradient-header); */
 }
 
+h3 {
+  font-family: var(--grotesk);
+  font-weight: 500;
+}
+
 h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
@@ -39,4 +44,36 @@ h2 {
 
 p {
   margin: 0;
+}
+
+.panel-titlebar {
+  padding: 0.35rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.panel-label {
+  font-family: var(--cascadia);
+  font-size: 0.7rem;
+  color: var(--text-gray);
+}
+
+.pulsing-glow {
+  color: #fff;
+  animation: pulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 20px var(--accent-aqua);
+  }
+  100% {
+    text-shadow:
+      0 0 8px #fff,
+      0 0 22px #fff,
+      0 0 50px var(--accent-aqua),
+      0 0 100px var(--accent-aqua);
+  }
 }

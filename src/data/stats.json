@@ -1,0 +1,16 @@
+{
+    "skills": [
+        { "name": "html/css", "percent": 99 },
+        { "name": "javascript", "percent": 90 },
+        { "name": "react", "percent": 85 },
+        { "name": "figma", "percent": 85 },
+        { "name": "unity/c#", "percent": 70 },
+        { "name": "game design", "percent": 70 }
+    ],
+    "offTheClock": [
+        "dancing",
+        "playing nier:automata",
+        "making matcha",
+        "collecting shiny things"
+    ]
+}

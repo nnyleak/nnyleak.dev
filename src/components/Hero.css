@@ -3,16 +3,14 @@
   align-items: center;
   justify-content: center;
   min-height: calc(90vh - 50px);
-  padding: 3rem;
-  font-family: var(--grotesk);
 }
 
 .hero-inner {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   width: 100%;
-  max-width: 920px;
+  max-width: 1000px;
 }
 
 .hero-left {
@@ -22,6 +20,12 @@
   flex: 1;
 }
 
+.hero-roles {
+  font-size: 18px;
+  letter-spacing: 12%;
+  color: var(--text-gray);
+}
+
 .hero-name {
   font-size: 128px;
   line-height: 0.85;
@@ -29,31 +33,51 @@
 }
 
 .hero-tagline {
-  color: var(--accent-cream);
-  opacity: 0.5;
-  font-size: 0.9rem;
+  color: var(--accent-pink);
+  font-size: 20px;
   margin: 0;
 }
 
 .hero-buttons {
   display: flex;
   flex-direction: row;
-  gap: 0.5rem;
+  gap: 15px;
 }
 
 .hero-btn {
-  padding: 0.3rem 0.75rem;
-  border: 1.5px solid var(--accent-cream);
-  color: var(--accent-cream);
+  padding: 5px 10px;
   text-decoration: none;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  background: transparent;
+  font-size: 14px;
+  letter-spacing: 12%;
 }
 
-.hero-btn:hover {
-  background: var(--accent-cream);
+.work {
+  border: 1px solid var(--accent-aqua);
+  color: var(--accent-aqua);
+}
+
+.work:hover {
+  background: var(--accent-aqua);
+  color: var(--bg);
+}
+
+.resume {
+  border: 1px solid var(--accent-gold);
+  color: var(--accent-gold);
+}
+
+.resume:hover {
+  background: var(--accent-gold);
+  color: var(--bg);
+}
+
+.contact {
+  border: 1px solid var(--accent-pink);
+  color: var(--accent-pink);
+}
+
+.contact:hover {
+  background: var(--accent-pink);
   color: var(--bg);
 }
 
@@ -62,24 +86,40 @@
 }
 
 .hero-about {
-  border: 1.5px solid var(--accent-cream);
-  padding: 2rem;
+  border: 1px solid var(--border);
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  background: var(--gradient-panel);
 }
 
-.hero-about-label {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  color: var(--accent-cream);
-  opacity: 0.5;
+.hero-about-titlebar {
+  border-bottom: 1px solid var(--border);
+  background: var(--gradient-panel);
 }
 
-.hero-about p {
+.hero-about-titlebar .panel-label {
+  color: var(--text-gray);
+}
+
+.hero-about-body {
+  padding: 20px;
+}
+
+.hero-about-body p {
   color: var(--accent-cream);
-  font-size: 0.95rem;
+  font-size: 15px;
   line-height: 1.6;
   margin: 0;
+}
+
+.hero-about-body .status {
+  color: var(--accent-aqua);
+  letter-spacing: 12%;
+  font-size: 16px;
+  text-align: right;
+}
+
+.hero-about-body .status-bullet {
+  font-size: 20px;
+  color: var(--accent-aqua);
 }
