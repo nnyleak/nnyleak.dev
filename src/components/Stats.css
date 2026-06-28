@@ -46,19 +46,30 @@
   background: var(--gradient-bar);
 }
 
-/* ── Identity row ── */
+/* FIRST STATS ROW */
 
 .stats-identity {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-size: 0.9rem;
   color: var(--accent-cream);
   flex-wrap: wrap;
 }
 
-.stats-identity-sep {
-  color: var(--border);
+.stats-name {
+  font-size: 22px;
+}
+
+.stats-role {
+  font-size: 15px;
+  letter-spacing: 12%;
+  color: var(--accent-pink);
+}
+
+.stats-lv {
+  font-size: 13px;
+  letter-spacing: 12%;
+  color: var(--text-gray);
 }
 
 /* ── Shared section label ── */

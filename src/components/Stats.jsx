@@ -16,7 +16,7 @@ function Stats() {
           <div className="stats-panel-body">
           <div className="stats-identity">
             <span className="stats-name">kaelynn amodia</span>
-            <span className="stats-role">web developer &amp; game designer</span>
+            <span className="stats-role">WEB DEVELOPER &amp; GAME DESIGNER</span>
             <span className="stats-lv">LV. 23 &bull; RIT &apos;25</span>
           </div>
 

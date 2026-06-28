@@ -13,67 +13,38 @@ body {
 h1,
 h2 {
   font-family: var(--pinyon);
-  font-weight: 500;
   /* color: var(--gradient-header); */
+  text-box: trim-both cap alphabetic;
 }
 
 h3 {
   font-family: var(--grotesk);
   font-weight: 500;
-}
-
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
+  text-box: trim-both cap alphabetic;
 }
 
 p {
   margin: 0;
+  text-box: trim-both cap alphabetic;
+}
+
+span {
+  text-box: trim-both cap alphabetic;
 }
 
 .panel-titlebar {
   padding: 0.35rem 0.75rem;
   border-bottom: 1px solid var(--border);
+  background: var(--gradient-panel);
 }
 
 .panel-label {
   font-family: var(--cascadia);
-  font-size: 0.7rem;
+  font-size: 13px;
   color: var(--text-gray);
 }
 
 .pulsing-glow {
   color: #fff;
   animation: pulse 2s ease-in-out infinite alternate;
-}
-
-@keyframes pulse {
-  0% {
-    text-shadow:
-      0 0 4px #fff,
-      0 0 11px #fff,
-      0 0 20px var(--accent-aqua);
-  }
-  100% {
-    text-shadow:
-      0 0 8px #fff,
-      0 0 22px #fff,
-      0 0 50px var(--accent-aqua),
-      0 0 100px var(--accent-aqua);
-  }
 }

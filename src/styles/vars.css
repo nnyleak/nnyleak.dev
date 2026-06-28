@@ -38,9 +38,9 @@
   --cascadia: "Cascadia Code", sans-serif;
 
   font: 18px/145% var(--grotesk);
-  letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--accent-cream);
+  
 
   background-image: url("../assets/images/bg.png");
   background-attachment: fixed;
@@ -93,5 +93,21 @@
     );
     --gradient-panel: linear-gradient(180deg, var(--panel) 0%, black 100%);
     --shadow: rgba(0, 0, 0, 0.3) 0 14px 40px -3px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 20px var(--accent-aqua);
+  }
+  100% {
+    text-shadow:
+      0 0 8px #fff,
+      0 0 22px #fff,
+      0 0 50px var(--accent-aqua),
+      0 0 100px var(--accent-aqua);
   }
 }
