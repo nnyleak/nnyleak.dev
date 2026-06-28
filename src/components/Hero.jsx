@@ -28,7 +28,7 @@ function Hero() {
           </div>
         </div>
         <div className="hero-right">
-          <div className="hero-about">
+          <div className="hero-about shadow">
             <div className="panel-titlebar">
               <span className="panel-label">about_me.txt</span>
             </div>

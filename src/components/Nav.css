@@ -7,8 +7,7 @@
   justify-content: space-between;
   padding: 0 3rem;
   height: fit-content;
-  background: var(--bg);
-  border-bottom: 1.5px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }
 
 .nav-left {

@@ -4,12 +4,12 @@ import "./Nav.css";
 
 function Nav() {
   return (
-    <nav className="nav">
+    <nav className="nav shadow blur">
       <div className="nav-left">
         <div className="nav-logo">
           <Logo />
         </div>
-        <span className="nav-handle">nnyleak.dev</span>
+        <span className="nav-handle">nnyleak<span style={{color: 'var(--accent-aqua)'}}>.dev</span></span>
       </div>
       <div className="nav-right">
         <Link className="nav-btn" to="/#work">

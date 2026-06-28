@@ -48,3 +48,17 @@ span {
   color: #fff;
   animation: pulse 2s ease-in-out infinite alternate;
 }
+
+.shadow {
+  box-shadow: var(--shadow);
+}
+
+.blur::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--bg);
+  opacity: 0.72;
+  z-index: -1;
+  backdrop-filter: blur(10px);
+}

@@ -50,10 +50,11 @@
 }
 
 .project-card--featured .card-body {
-  padding: 0.5rem 0.9rem;
+  padding: 1rem 0.9rem;
   display: flex;
   flex-direction: column;
   flex: 1;
+  gap: 0.7rem;
 }
 
 /* MINI CARDS */
@@ -78,6 +79,7 @@
   padding: 0.6rem;
   display: flex;
   flex-direction: column;
+  gap: 0.7rem;
 }
 
 .project-card--mini .card-title {
@@ -98,11 +100,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.8rem;
   border-bottom: 1px solid var(--border);
   text-decoration: none;
   color: inherit;
   gap: 1rem;
+  background: var(--gradient-panel);
 }
 
 .project-card--list:hover .card-list-arrow {
@@ -112,6 +115,7 @@
 .card-list-content {
   display: flex;
   flex-direction: column;
+  gap: 0.7rem;
 }
 
 .card-list-arrow {
@@ -180,7 +184,8 @@
 .card-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0rem 0.3rem;
+  gap: 0.4rem 0.3rem;
+  
 }
 
 .card-tag {

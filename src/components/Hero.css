@@ -106,18 +106,16 @@
 .hero-about-body p {
   color: var(--accent-cream);
   font-size: 0.825rem;
-  line-height: 1.6;
-  margin: 0;
 }
 
 .hero-about-body .status {
   color: var(--accent-aqua);
-  letter-spacing: 12%;
-  font-size: 16px;
+  letter-spacing: 0.12rem;
+  font-size: 0.9rem;
   text-align: right;
 }
 
 .hero-about-body .status-bullet {
-  font-size: 20px;
+  font-size: 1.1rem;
   color: var(--accent-aqua);
 }

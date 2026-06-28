@@ -24,7 +24,7 @@ function Projects() {
         <div className="projects-secondary">
           <div className="projects-builds">
             <div className="projects-section-label">
-              <div>more builds</div>
+              <p>more builds</p>
               <div className="projects-divider"></div>
             </div>
 
